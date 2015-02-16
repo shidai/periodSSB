@@ -1,0 +1,1 @@
+gcc -o periodSSB periodSSB.c periodSSBLib.c readPfits.c tempo2pred.c cheby2d.c t1polyco.c -L../cfitsio/lib -I../cfitsio/include/ -lcfitsio -lm
